@@ -13,14 +13,6 @@
   position: relative;
 }
 
-.frame .GI-LINGHON {
-  position: absolute;
-  width: 112px;
-  height: 21px;
-  top: 223px;
-  left: 164px;
-}
-
 .frame .ellipse {
   position: absolute;
   width: 124px;
@@ -233,6 +225,15 @@
   white-space: nowrap;
 }
 
+.frame .rectangle {
+  position: absolute;
+  width: 127px;
+  height: 41px;
+  top: 67px;
+  left: 10px;
+  background-color: #d9d9d9;
+}
+
 .frame .overlap-7 {
   position: absolute;
   width: 274px;
@@ -259,7 +260,7 @@
   line-height: normal;
 }
 
-.frame .rectangle {
+.frame .rectangle-2 {
   position: absolute;
   width: 231px;
   height: 53px;
@@ -270,7 +271,7 @@
   border-color: #000000;
 }
 
-.frame .rectangle-2 {
+.frame .rectangle-3 {
   position: absolute;
   width: 231px;
   height: 53px;
@@ -281,7 +282,7 @@
   border-color: #000000;
 }
 
-.frame .rectangle-3 {
+.frame .rectangle-4 {
   position: absolute;
   width: 231px;
   height: 53px;
@@ -292,7 +293,7 @@
   border-color: #000000;
 }
 
-.frame .rectangle-4 {
+.frame .rectangle-5 {
   position: absolute;
   width: 231px;
   height: 53px;
@@ -303,7 +304,7 @@
   border-color: #000000;
 }
 
-.frame .rectangle-5 {
+.frame .rectangle-6 {
   position: absolute;
   width: 231px;
   height: 53px;
@@ -314,7 +315,7 @@
   border-color: #000000;
 }
 
-.frame .rectangle-6 {
+.frame .rectangle-7 {
   position: absolute;
   width: 148px;
   height: 51px;
@@ -372,7 +373,7 @@
   left: 790px;
 }
 
-.frame .rectangle-7 {
+.frame .rectangle-8 {
   position: absolute;
   width: 256px;
   height: 586px;
@@ -398,7 +399,7 @@
   line-height: normal;
 }
 
-.frame .rectangle-8 {
+.frame .rectangle-9 {
   position: absolute;
   width: 208px;
   height: 33px;
@@ -425,7 +426,7 @@
   line-height: normal;
 }
 
-.frame .rectangle-9 {
+.frame .rectangle-10 {
   position: absolute;
   width: 223px;
   height: 53px;
@@ -436,7 +437,7 @@
   border-color: #000000;
 }
 
-.frame .rectangle-10 {
+.frame .rectangle-11 {
   position: absolute;
   width: 223px;
   height: 53px;
@@ -447,7 +448,7 @@
   border-color: #000000;
 }
 
-.frame .rectangle-11 {
+.frame .rectangle-12 {
   position: absolute;
   width: 223px;
   height: 53px;
@@ -458,7 +459,7 @@
   border-color: #000000;
 }
 
-.frame .rectangle-12 {
+.frame .rectangle-13 {
   position: absolute;
   width: 223px;
   height: 53px;
@@ -469,7 +470,7 @@
   border-color: #000000;
 }
 
-.frame .rectangle-13 {
+.frame .rectangle-14 {
   position: absolute;
   width: 223px;
   height: 53px;
@@ -480,7 +481,7 @@
   border-color: #000000;
 }
 
-.frame .rectangle-14 {
+.frame .rectangle-15 {
   position: absolute;
   width: 223px;
   height: 53px;
@@ -491,7 +492,7 @@
   border-color: #000000;
 }
 
-.frame .rectangle-15 {
+.frame .rectangle-16 {
   position: absolute;
   width: 223px;
   height: 53px;
@@ -722,7 +723,7 @@
   left: 1259px;
 }
 
-.frame .rectangle-16 {
+.frame .rectangle-17 {
   position: absolute;
   width: 79px;
   height: 31px;
@@ -745,7 +746,7 @@
   white-space: nowrap;
 }
 
-.frame .rectangle-17 {
+.frame .rectangle-18 {
   position: absolute;
   width: 1px;
   height: 2px;
@@ -781,5 +782,17 @@
   letter-spacing: 0;
   line-height: normal;
   white-space: nowrap;
+}
+
+.frame .text-wrapper-24 {
+  position: absolute;
+  top: 226px;
+  left: 164px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #0f0e0e;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
 }
 
