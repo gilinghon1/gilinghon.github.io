@@ -80,6 +80,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover; 
+}
 
 .button-link {
   display: inline-block;
@@ -96,6 +97,29 @@
 }
 
 
+
+ul li ul.dropdown li{
+  display: block;
+
+}
+ul li ul.dropdown{
+   width: 100%;
+   position:absolute;
+   z-index: 999;
+   display: none;
+   background: rgb(53, 53, 53);
+   border-color: black;
+}
+ul li a :hover{
+  background: black;
+}
+ul li:hover ul.dropdown{
+  display: block;
+}
+
+
+
+
     </style>
 </head>
 <body>
@@ -109,7 +133,7 @@
             </head>
             <body>
               <div class="circular-image">
-                <img src="C:\Users\mypc\Downloads\....jpg" alt="Your Image">
+                <img src="C:\Users\mypc\Downloads\....jpg" alt="Your Image"/>
               </div>
             </body>
             </html>
@@ -123,9 +147,12 @@
                 <li><a href="#">HOME</a></li> 
                 <li><a href="#">ABOUT ME</a></li>
                 <a href="#" class="button-link">WEB DEVELOPMENT</a>
-                <link rel="stylesheet" type="text/css" href="styles.css">
-                <link rel="stylesheet" type="text/css" href="styles.css">
-                <link rel="stylesheet" type="text/css" href="styles.css">
+                <ul class = "dropdown">
+                    <li><a href="./Activity/FashionBlog.html">FASHION BLOG</a></li>
+                    <li><a href="./Activity/WineFestival.html">WINE FESTIVAL SCHEDULE</a></li>
+                    <li><a href="./Activity/DaviesBurger.html">DAVIE'S BURGER</a></li>
+                  
+                </ul>
                 <li><a href="#">EXPERIENCE</a></li>
                 <li><a href="#">CONTACT</a></li>
 
@@ -143,8 +170,8 @@
         <h2>𝗟𝗲𝗮𝗿𝗻 𝗖𝗦𝗦 𝗔𝗰𝘁𝗶𝘃𝗶𝘁𝗶𝗲𝘀</h2>
         <p>The CSS learning tasks involve styling web content, which gives you control over the design, colors, fonts, and other visual elements of a webpage. Selectors are essential to CSS operations because they choose which HTML elements to apply styles to. The specific styling guidelines are defined by properties in CSS actions, such as setting the background color, text size, or border width. Values are used in CSS actions to define how properties should be applied, such as when specifying a color in hexadecimal form. When several conflicting styles are applied to the same element, cascading refers to the process of deciding which styles take precedence.</p>
 
-        <h2>𝗠𝘆 𝗙𝗶𝗻𝗮𝗻𝗰𝗶𝗮𝗹 𝗧𝗿𝗮𝗰𝗸𝗲𝗿</h2>
-        <link rel="stylesheet" type="text/css" href="styles.css">
+        
+        <a href="./Activity/financialtracker.html"><h2>𝗠𝘆 𝗙𝗶𝗻𝗮𝗻𝗰𝗶𝗮𝗹 𝗧𝗿𝗮𝗰𝗸𝗲𝗿</h2></a>
         
         
     </center>
